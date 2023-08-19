@@ -34,3 +34,6 @@ if st.button("Predict"):
     prediction = str(model.predict(data_normalized)[0])
     pred_class = class_dict[prediction]
     st.write("Prediction:", pred_class)
+
+    # URL for Web App
+    # 
