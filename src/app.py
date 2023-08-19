@@ -36,4 +36,4 @@ if st.button("Predict"):
     st.write("Prediction:", pred_class)
 
     # URL for Web App
-    # 
+    # https://streamlit-diabetes.onrender.com
